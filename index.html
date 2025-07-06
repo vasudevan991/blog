@@ -3,17 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Blog - Home</title>
+    <title>Dr. Vasudevan's Blog - Medical Insights & More</title>
+    <meta name="description" content="Sharing medical insights, health tips, and professional experiences from a practicing doctor. Read about healthcare, medical technology, and wellness.">
+    <meta name="keywords" content="doctor, medical blog, healthcare, health tips, medical insights, wellness, medicine, physician">
+    <meta name="author" content="Dr. Vasudevan">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Dr. Vasudevan's Blog - Medical Insights & More">
+    <meta property="og:description" content="Sharing medical insights, health tips, and professional experiences from a practicing doctor.">
+    <meta property="og:url" content="https://vasudevan991.github.io/blog/">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Dr. Vasudevan's Blog - Medical Insights & More">
+    <meta property="twitter:description" content="Sharing medical insights, health tips, and professional experiences from a practicing doctor.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Analytics (Replace GA_TRACKING_ID with your actual tracking ID) -->
+    <!-- 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_TRACKING_ID');
+    </script>
+    -->
 </head>
 <body>
     <header class="header">
         <nav class="nav">
             <div class="nav-container">
                 <div class="logo">
-                    <h1><i class="fas fa-pen-nib"></i> My Blog</h1>
+                    <h1><i class="fas fa-stethoscope"></i> Dr. Vasudevan's Blog</h1>
                 </div>
                 <ul class="nav-menu">
                     <li><a href="index.html" class="nav-link active">Home</a></li>
@@ -32,8 +62,8 @@
     <main class="main">
         <section class="hero">
             <div class="hero-content">
-                <h2>Welcome to My Blog</h2>
-                <p>Sharing thoughts, experiences, and insights about technology, life, and everything in between.</p>
+                <h2>Welcome to Dr. Vasudevan's Blog</h2>
+                <p>Sharing medical insights, health tips, and professional experiences to help you understand healthcare better.</p>
                 <a href="#posts" class="cta-button">Read Posts</a>
             </div>
         </section>
@@ -44,46 +74,46 @@
                 <div class="posts-grid">
                     <article class="post-card">
                         <div class="post-image">
-                            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=200&fit=crop" alt="Web Development">
+                            <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=200&fit=crop" alt="Medical professional examining brain scan">
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-date">July 6, 2025</span>
+                                <span class="post-category">Neurology</span>
+                            </div>
+                            <h3><a href="stroke-recognition.html">How to Recognize a Stroke Early — The Life You Save Could Be Yours</a></h3>
+                            <p>Learn the FAST rule and critical warning signs to recognize stroke early. Quick recognition can mean the difference between full recovery and lifelong disability.</p>
+                            <a href="stroke-recognition.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="post-card">
+                        <div class="post-image">
+                            <img src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=200&fit=crop" alt="Young athlete with heart monitoring">
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-date">July 6, 2025</span>
+                                <span class="post-category">Cardiology</span>
+                            </div>
+                            <h3><a href="cardiac-arrest-young-people.html">Cardiac Arrest in Young Adults: Why It Happens and What We Should Know</a></h3>
+                            <p>Understanding the causes, warning signs, and prevention of cardiac arrest in young adults - a critical health issue that affects seemingly healthy individuals.</p>
+                            <a href="cardiac-arrest-young-people.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="post-card">
+                        <div class="post-image">
+                            <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=200&fit=crop" alt="Medical Technology">
                         </div>
                         <div class="post-content">
                             <div class="post-meta">
                                 <span class="post-date">July 5, 2025</span>
-                                <span class="post-category">Technology</span>
+                                <span class="post-category">Medical Technology</span>
                             </div>
-                            <h3><a href="post1.html">The Future of Web Development</a></h3>
-                            <p>Exploring the latest trends and technologies shaping the future of web development, from AI integration to modern frameworks.</p>
+                            <h3><a href="post1.html">The Future of Digital Health</a></h3>
+                            <p>Exploring how artificial intelligence, telemedicine, and digital tools are revolutionizing healthcare delivery and patient care.</p>
                             <a href="post1.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </article>
-
-                    <article class="post-card">
-                        <div class="post-image">
-                            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=200&fit=crop" alt="Team Collaboration">
-                        </div>
-                        <div class="post-content">
-                            <div class="post-meta">
-                                <span class="post-date">July 3, 2025</span>
-                                <span class="post-category">Productivity</span>
-                            </div>
-                            <h3><a href="post2.html">Building Effective Teams</a></h3>
-                            <p>Key strategies for creating and maintaining high-performing teams in today's remote-first work environment.</p>
-                            <a href="post2.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </article>
-
-                    <article class="post-card">
-                        <div class="post-image">
-                            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=200&fit=crop" alt="Mountain Landscape">
-                        </div>
-                        <div class="post-content">
-                            <div class="post-meta">
-                                <span class="post-date">July 1, 2025</span>
-                                <span class="post-category">Lifestyle</span>
-                            </div>
-                            <h3><a href="post3.html">Finding Work-Life Balance</a></h3>
-                            <p>Practical tips and strategies for maintaining a healthy balance between professional responsibilities and personal well-being.</p>
-                            <a href="post3.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </article>
                 </div>
@@ -108,8 +138,8 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>My Blog</h3>
-                    <p>Sharing insights and experiences to inspire and inform.</p>
+                    <h3>Dr. Vasudevan's Blog</h3>
+                    <p>Sharing medical insights and healthcare experiences to educate and inspire.</p>
                 </div>
                 <div class="footer-section">
                     <h3>Quick Links</h3>
@@ -129,7 +159,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 My Blog. All rights reserved.</p>
+                <p>&copy; 2025 Dr. Vasudevan's Blog. All rights reserved.</p>
             </div>
         </div>
     </footer>
